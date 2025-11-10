@@ -1,17 +1,26 @@
+# version: 2
+# updates:
+#   - package-ecosystem: "maven"
+#     directory: "/"
+#     schedule:
+#       interval: "weekly"
+#     target-branch: "main"
+#     reviewers:
+#       - "vasanth-123"
+
+#   - package-ecosystem: "maven"
+#     directory: "/"
+#     schedule:
+#       interval: "weekly"
+#     target-branch: "spring"
+#     reviewers:
+#       - "vasanth-123"
 version: 2
 updates:
   - package-ecosystem: "maven"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     target-branch: "main"
-    reviewers:
-      - "vasanth-123"
-
-  - package-ecosystem: "maven"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    target-branch: "spring"
     reviewers:
       - "vasanth-123"
