@@ -1,10 +1,17 @@
 version: 2
 updates:
   - package-ecosystem: "maven"
-    directory: "/"                   # Root folder containing pom.xml
+    directory: "/"
     schedule:
-      interval: "weekly"             # Can be daily, weekly, or monthly
-      day: "monday"                  # Optional: choose day of week
-    open-pull-requests-limit: 5
-    allow:
-      - dependency-type: "all"       # All dependencies (direct + transitive)
+      interval: "weekly"
+    target-branch: "main"
+    reviewers:
+      - "vasanth-123"
+
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "spring"
+    reviewers:
+      - "vasanth-123"
