@@ -1,18 +1,15 @@
-version: 2
 updates:
   - package-ecosystem: "maven"
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 10
-    reviewers: []
-    labels: ["dependencies"]
     target-branch: "main"
+    reviewers:
+      - "vasanth-123"
   - package-ecosystem: "maven"
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 10
-    reviewers: []
-    labels: ["dependencies"]
     target-branch: "spring"
+    reviewers:
+      - "vasanth-123"
