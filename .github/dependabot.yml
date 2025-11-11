@@ -18,9 +18,10 @@
 version: 2
 updates:
   - package-ecosystem: "maven"
-   directory: "/demo1/demo1"
+    directory: "/demo1/demo1"
     schedule:
       interval: "daily"
     target-branch: "main"
     reviewers:
       - "vasanth-123"
+
