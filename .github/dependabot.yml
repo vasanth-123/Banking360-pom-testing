@@ -19,10 +19,3 @@ updates:
     reviewers:
       - "vasanth-123"
 
-  - package-ecosystem: "maven"
-    directory: "/demo1/demo1"
-    schedule:
-      interval: "daily"
-    target-branch: "spring"
-    reviewers:
-      - "vasanth-123"
