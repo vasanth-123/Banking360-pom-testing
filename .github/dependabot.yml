@@ -22,7 +22,7 @@ updates:
   - package-ecosystem: "maven"
     directory: "/demo1/demo1"
     schedule:
-      interval: "Daily"
+      interval: "daily"
     target-branch: "spring"
     reviewers:
       - "vasanth-123"
