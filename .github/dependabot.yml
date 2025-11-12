@@ -8,13 +8,7 @@
 #     reviewers:
 #       - "vasanth-123"
 
-#   - package-ecosystem: "maven"
-#     directory: "/"
-#     schedule:
-#       interval: "weekly"
-#     target-branch: "spring"
-#     reviewers:
-#       - "vasanth-123"
+
 version: 2
 updates:
   - package-ecosystem: "maven"
@@ -25,3 +19,10 @@ updates:
     reviewers:
       - "vasanth-123"
 
+  - package-ecosystem: "maven"
+    directory: "/demo1/demo1"
+    schedule:
+      interval: "Daily"
+    target-branch: "spring"
+    reviewers:
+      - "vasanth-123"
